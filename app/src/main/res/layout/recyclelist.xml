@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/recyclelist1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_country"
+        android:id="@+id/countryname"
+        android:layout_toRightOf="@+id/cardshow"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:textSize="22sp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="90dp"
+        android:id="@+id/cardshow"
+        android:layout_height="90dp"
+        app:cardCornerRadius="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        xmlns:card_view="https://schemas.android.com/apk/res-auto"
+        card_view:cardUseCompatPadding="true">
+    <ImageView
+        android:id="@+id/flagshow"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:maxWidth="160dp"
+        android:maxHeight="160dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="TODO" />
+    </androidx.cardview.widget.CardView>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/addbtn"
+        android:src="@drawable/ic_baseline_add_24"/>
+</RelativeLayout>

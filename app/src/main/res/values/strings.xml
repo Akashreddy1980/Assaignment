@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="name_country">"Country name"</string>
+    <string name="country_name">Country Name:</string>
+    <string name="capital">Capital:</string>
+    <string name="region">Region:</string>
+    <string name="sub_region">Sub region</string>
+    <string name="population">Population:</string>
+    <string name="borders">Borders:</string>
+    <string name="languages">Languages</string>
+</resources>
